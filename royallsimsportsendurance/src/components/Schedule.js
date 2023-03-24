@@ -1,24 +1,11 @@
-import { Container, Table } from 'react-bootstrap';
-import styles from './Schedule.module.css';
+import { Container } from 'react-bootstrap';
+import ScheduleTable from './ScheduleTable';
 
 const Schedule = () => {
-  // Fetch schedule data here (API call or static data)
-  // Example of static data:
-  const scheduleData = [
-    // ...
-  ];
-
   return (
     <Container>
-      <h2 className={styles.headingCustom}>Schedule</h2>
-      <Table striped bordered hover>
-        <thead>
-          {/* Table headers */}
-        </thead>
-        <tbody>
-          {/* Map through the fetched data and create table rows */}
-        </tbody>
-      </Table>
+      <h2>Schedule</h2>
+      <ScheduleTable />
     </Container>
   );
 };

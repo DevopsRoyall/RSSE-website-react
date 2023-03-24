@@ -1,12 +1,16 @@
 .navbarCustom {
-    background-color: #1a2b4c; /* Blue */
+    background-color: #343a40; /* Dark Grey */
+    justify-content: center;
   }
   
   .navLinkCustom {
     color: #ffffff; /* White */
+    margin: 0 1rem;
   }
   
-  .navLinkCustom:hover {
-    color: #f26d21; /* Orange */
+  .logo {
+    height: 3rem;
+    width: auto;
+    margin-right: 2rem;
   }
   

@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Schedule from './components/Schedule';
@@ -9,14 +10,16 @@ function App() {
   return (
     <Router>
       <Header />
-      <Switch>
-        <Route path="/schedule" component={Schedule} />
-        <Route path="/drivers-and-teams" component={DriversAndTeams} />
-        <Route path="/pitwall-integration" component={PitwallIntegration} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Schedule />} />
+        <Route path="/schedule" element={<Schedule />} />
+        <Route path="/drivers-and-teams" element={<DriversAndTeams />} />
+        <Route path="/pitwall-integration" element={<PitwallIntegration />} />
+      </Routes>
       <Footer />
     </Router>
   );
 }
 
 export default App;
+
