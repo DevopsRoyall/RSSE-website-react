@@ -1,0 +1,17 @@
+.headingCustom {
+    color: #1a2b4c; /* Blue */
+  }
+  
+  .cardCustom {
+    margin-bottom: 1rem;
+    border-color: #f26d21; /* Orange */
+  }
+  
+  .cardTitleCustom {
+    color: #1a2b4c; /* Blue */
+  }
+  
+  .cardTextCustom {
+    color: #343a40; /* Dark Grey */
+  }
+  
