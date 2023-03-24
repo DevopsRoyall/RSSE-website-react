@@ -1,11 +1,27 @@
 .footerCustom {
-    background-color: #343a40; /* Dark Grey */
+    background-color: #009fe3;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     margin-top: 2rem;
-    padding: 1rem 0;
   }
   
-  .textCustom {
-    color: #ffffff; /* White */
+  .footerLinksCustom {
+    display: flex;
+    justify-content: space-between;
   }
   
+  .footerLinkCustom {
+    color: #fff;
+    margin-right: 2rem;
+  }
+  
+  .footerLinkCustom:hover {
+    color: #c7d5e0;
+  }
+  
+  .footerLogoCustom {
+    height: 4rem;
+    width: auto;
+  }
   

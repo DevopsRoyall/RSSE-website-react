@@ -1,0 +1,27 @@
+.navbarCustom {
+    background-color: #706f6f; /* Blue */
+    border-bottom: 4px solid #e57800; /* Orange */
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 3rem;
+    width: auto;
+    margin-right: 1rem;
+    filter: drop-shadow(0px 0px 5px #706f6f); /* Dark Grey */
+  }
+  
+  .navLinkCustom {
+    color: #ffffff; /* White */
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .navLinkCustom:hover {
+    color: #c7d5e0; /* Light Grey */
+  }
+  
